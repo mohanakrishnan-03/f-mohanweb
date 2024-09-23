@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohan's website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mohanakrishnan s</h1>
+        <nav>
+            <ul>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#studies">studies</a></li>
+                <li><a href="#forms">Forms</a></li>
+                <li><a href="#my profile">my profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="skills">
+            <h2 class="s">skills</h2>
+            <h3></h3>
+            <ul class="u">
+                <li>Web developing</li>
+                <li>creative thinking</li>
+                <li>photo editing </li>
+            </ul>
+            <h3 class="s">Interested</h3>
+            <ol class="u">
+                <li>Travelling</li>
+                <li>Sports</li>
+                <li>Exercising</li>
+            </ol>
+        </section>
+
+        <section id="studies">
+            <h2 class="s">studies</h2>
+            <table border="10" class="u">
+                <thead>
+                
+                    <tr>  
+                          
+                        <th>School name</th>
+                        <th>passed out </th>
+                        <th>place</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>2020</td>
+                        <td>villupuram</td>
+                    </tr>
+                    <tr>
+                        <td>srv</td>
+                        <td>2023</td>
+                        <td>trichy</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="forms">
+            <h2 class="s">Forms</h2>
+            <form id="exampleForm">
+                <label for="name"> Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email"> Your Email:</label>
+                <input type="text" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+            <div id="formResult"></div>
+        </section>
+        
+        <center>
+        <section id="my profile">
+            <h2 class="s">my profile</h2>
+            <h3>Image</h3>
+            <img src="mohan.jpg" width="200px" alt="Placeholder Image">
+            <h3>Video</h3>
+            <video controls width="300">
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </center>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 HTML Elements Showcase</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
